@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Animated Background Headers | Demo main</title>
+	<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+	<meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+	<meta name="author" content="Codrops" />
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container demo-1">
+		<div class="content">
+			<div id="large-header" class="large-header">
+				<div class="col-md-6 col-md-offset-3">
+					<canvas id="demo-canvas"></canvas>
+				<!-- <div class="insp1"><center>BELIEVE</center></div>
+				<div class="insp2"><center>ACT</center></div> -->
+				<div class="kalog"><center><img src="./img/kaizen.png" height="500" width="550"></center></div>
+				<h1 class="main-title">Kaizen <br /><span class="thin">Coming Soon</span></h1>
+				<div class="year"><span class="number">17</span></div>
+				<div class="date">21<sup>st</sup> JAN'17</div>
+				<!-- <center><a href="nss.iitd.ac.in/iitds/kaizeniitd.html"><button class="button">Kaizen-16</button></a></center> -->
+				<!-- <center><section class="color-1"><nav class="cl-effect-20"><a href="http://nss.iitd.ac.in/iitds/kaizeniitd.html"  data-hover="Desultory">Kaizen 16</a></nav></section>></center> -->
+				<center><a rel="pulse" href="https://www.facebook.com/kaizeniitd4society/?fref=ts"><img src="./img/fb-icon8.png" class="social pulse" id="facebook"></a></center>
+				</div>
+			</div>
+		</div>
+	</div>
+<script>
+	$(document).ready(function(){
+    	// $(".insp1").hide(0).delay(1500).fadeIn(3000).fadeOut(1000);
+    	// $(".insp2").hide(0).delay(6000).fadeIn(3000).fadeOut(1000);
+    	// $(".kalog").hide(0);
+     //  $(".main-title").hide(0);
+     //  $(".thin").hide(0);
+     //  $(".year").hide(0);
+     //  $(".date").hide(0);
+     //  $(".social").hide(0);
+     $(".kalog").hide(0).delay(300).fadeIn(3000);
+     $(".main-title").hide(0).delay(1500).fadeIn(3000);
+     $(".thin").hide(0).delay(3000).fadeIn(3000);
+     $(".year").hide(0).delay(1500).fadeIn(3000);
+     $(".date").hide(0).delay(4000).fadeIn(3000);
+     $(".social").hide(0).delay(4500).fadeIn(3000);
+ });
+</script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/rAF.js"></script>
+<script src="js/demo-1.js"></script>
+</body>
+</html>
